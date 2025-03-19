@@ -8,7 +8,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket = " test1-cts05"
+    bucket = "mgavali_bucket1"
     prefix = "env/prod"
   }  
 }
