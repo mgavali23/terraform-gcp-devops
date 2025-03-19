@@ -8,7 +8,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket = "gcplearn9-tfstate"
+    bucket = " test1-cts05"
     prefix = "env/prod"
   }  
 }
