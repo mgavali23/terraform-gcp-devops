@@ -74,4 +74,10 @@ steps:
         echo "Branch '$BRANCH_NAME' does not represent an official environment."
         echo "*******************************************************************************"
       fi
+      
+serviceAccount: 'projects/cts05-kadeshpande-01/serviceAccounts/SERVICE_ACCOUNT'
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+
 # [END tf-apply]      
